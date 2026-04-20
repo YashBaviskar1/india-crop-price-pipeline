@@ -1,8 +1,8 @@
 
 provider "google" {
   credentials = file(var.creds)
-  project = var.project_id
-  region  = var.region_name
+  project     = var.project_id
+  region      = var.region_name
 }
 
 resource "google_storage_bucket" "raw_bucket" {

@@ -26,3 +26,4 @@ __pycache__/
 # Your custom
 creds/
 STEPS.md
+ingestion_script.py
