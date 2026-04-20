@@ -1,0 +1,28 @@
+creds/
+.terraform
+STEPS.md
+
+# Terraform core files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Sensitive variable files
+*.tfvars
+*.tfvars.json
+
+# CLI config files
+.terraformrc
+terraform.rc
+
+# Lock file (optional but recommended to KEEP)
+# .terraform.lock.hcl  <-- DO NOT ignore this (good to commit)
+
+# Python (since you have ingestion script)
+__pycache__/
+*.pyc
+
+# Your custom
+creds/
+STEPS.md
