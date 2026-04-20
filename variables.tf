@@ -35,3 +35,10 @@ variable "processed_bucket_name" {
   type        = string
   default     = "agmarknet-processed-bucket"
 }
+
+
+variable "dataset_id" {
+  description = "Name of the DataWareHouse"
+  type        = string
+  default     = "crop_prices_dwh"
+}
