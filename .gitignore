@@ -27,3 +27,12 @@ __pycache__/
 creds/
 STEPS.md
 ingestion_script.py
+
+.env
+
+ingestion_script/.ipynb_checkpoints/
+ingestion_script/.venv
+
+ingestion_script/uv.lock
+.venv
+dataset/
